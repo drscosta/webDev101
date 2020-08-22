@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+
     <section class="section__header">
             <a href="https://www.theodinproject.com/home" class="odin__logo spc-bottom-50">
                 <img src="assets/odin-logo-2d729f16279e9fc3b58ce847eacf07f883bdfc95eb23bb5064ed59d36ef551d6.svg" alt="odin--icon" class="odin--icon">
@@ -15,7 +16,8 @@
             <h1 class="main--title">Web Dev 101</h1>
             <h2 class="main--title">Project: HTML/CSS</h2>
     </section>
-    <section class="section__main">
+
+    <section class="section__main spc-bottom-50">
         <h3 class="sub--title spc-bottom-30">Try these before starting:</h3>
         <ol class="text--list">
             <li>Two ways to move a div around on the page</li>
@@ -29,5 +31,21 @@
         </ol>
     </section>
     
+    <section class="section__main spc-bottom-50">
+        <h3 class="sub--title spc-bottom-30">Answers</h3>
+
+        <!--answer 1-->
+        <h4 class="text--header">1. Two ways to move a div around on the page</p>
+            <p class="text--common spc-bottom-30">We can move a <code>div</code> in a variety of ways, two of them are:</p>
+            <ul class="text--list spc-bottom-50">
+                <li>we can add <code>margins</code> to the div to space it from the element that precedes it in the flow of the webpage</li>
+                <li>we can set a <code>position</code> of <code>relative</code> to set the div position <strong>relative</strong> to itself and then add the properties <code>top</code>,<code>bottom</code>,<code>left</code> and <code>right</code> to move it.</li>
+            </ul>
+
+        <!--answer 2-->
+        <h4 class="text--header">2. Stick a div onto the bottom or top of the page</p>
+            <p class="text--common spc-bottom-50">To stick a <code>div</code> to the bottom or top of the page, we will set the css property <code>position</code> to fixed and add either a <code>top</code> or <code>bottom</code> of 0.</p>
+            
+    </section>
 </body>
 </html>

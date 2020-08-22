@@ -101,3 +101,25 @@
     line-height: 1.9rem;
 }
 
+.text--header {
+    font-family: var(--main-font);
+    color: rgba(74,74,74,0.7);
+    font-size: 0.9rem;
+}
+
+.text--common {
+    font-family: var(--main-font);
+    color: rgba(74,74,74,0.7);
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 1.6rem;
+}
+
+/* elements */
+code {
+    background-color: #b3b3b3;
+    color: white;
+    padding: 2px 3px;
+    border-radius: 4px;
+}
+
