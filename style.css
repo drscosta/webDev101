@@ -1,0 +1,103 @@
+/* resets */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* variables */
+
+:root {
+    --main-norse-color: #cc9543;
+    --main-title-color: #1a1a1a;
+    --sub-title-color: #4a4a4a;
+    --main-font: "Open Sans", sans-serif;
+    font-size: 20px;
+  }
+
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap');
+
+@font-face {
+    font-family: Norse;
+    src: url(assets/norse/Norse.otf);
+  }
+
+@font-face {
+    font-family: "Norse Bold";
+    src: url(assets/norse/Norse-Bold.otf);
+  }
+
+
+/* helpers */
+
+.spc-bottom-50 {
+    margin-bottom: 50px;
+}
+
+.spc-bottom-50 {
+    margin-bottom: 30px;
+}
+
+/* classes */
+
+
+.section__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section__main {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.odin__logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.odin--icon {
+    height: 70px;
+    transition: all .05s ease-in-out;
+}
+
+
+.odin--text {
+    font-family: "Norse Bold";
+    color: var(--main-norse-color);
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    font-weight: bold;
+    font-size: 1.6rem;
+    display: inline-block;
+    padding-left: 16px;
+}
+
+.main--title {
+    font-family: var(--main-font);
+    color: var(--main-title-color);
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.sub--title {
+    font-family: var(--main-font);
+    color: var(--sub-title-color);
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.text--list {
+    font-family: var(--main-font);
+    color: rgba(74,74,74,0.7);
+    font-weight: 300;
+    font-size: 0.8rem;
+    line-height: 1.9rem;
+}
+
